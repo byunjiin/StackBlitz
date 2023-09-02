@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { userState } from 'react';
+import { useState } from 'react';
 
 const formatter = Intl.NumberFormat('ko-kr');
 
