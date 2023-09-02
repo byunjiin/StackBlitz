@@ -1,0 +1,17 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+}
