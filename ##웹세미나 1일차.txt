@@ -1,0 +1,92 @@
+##웹세미나 1일차
+
+### 1교시
+
+## 링크
+
+nextjs : https://nextjs.org/
+
+stackBliz : https://stackblitz.com/edit/stackblitz-starters-mtefob?description=The%20React%20framework%20for%20production&file=README.md&title=Next.js%20Starter
+
+
+#### -라이브러리vs프레임워크
+
+라이브러리 :특정목적을 이루기위해(규모가 작은편)
+
+(내코드안에 라이브러리) -리액트
+
+
+프레임워크:프로덕트를 만들기위해 사용하는 만들어진 시스템(규모가 큰편)
+
+방향을 정해줌(프레임워크 안에 내 코드)-next.js
+
+
+#### -next.js란?
+
+풀스탭 웹 애플리케이션(서버사이드렌더링, 프론트 등에 사용)
+
+웹기반의 프레임워크
+
+#### -리액트 문제점
+
+소스보기에서 body가 안보임(자바스크립트없는환경=검색엔진)
+
+=>next.js에선 보임
+
+#### -앱라우팅
+
+최신버전인 13버전의 app router
+
+용도별로 pages router와 app router가 있음
+
+AR : 주로 최신기술
+
+PR : 페이지 디렉터리 안에 있는 파일하나당 라우터 지급(주소가 만들어짐)
+
+#### -a,link태그
+
+a태그 :새로 엶
+
+link태그 : 빠름 효율적
+
+### 2교시
+
+#### -컴포넌트
+
+:반복
+
+#### -JSX (nextjs의 장점)
+
+:javascript+xml
+
+xml은 태그 <>
+
+{자바스크림트의 표현식(숫자,문자,계산식 등)} 
+
+#### -조건부랜더링
+
+1.삼항연산식
+
+2.&&연산식
+
+3.react-if 패키지(npm에서 검색가능)
+
+### 3교시
+
+#### -테일윈드+모듈css 많이사용
+
+테일윈드 핫해핫해
+
+#### -nextjs활용
+
+1.키오스크
+
+2.웹만들기
+
+#### -주의
+
+pages는 url용도로만 컴포넌트에 묶어서 넣기
+
+#### -nextjs 베포
+
+넉스트, 버쎌
