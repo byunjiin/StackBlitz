@@ -1,4 +1,5 @@
 import { MenuItem } from '../components';
+import Link from 'next/link';
 
 export default function SinglesPage() {
   return (
@@ -18,10 +19,14 @@ export default function SinglesPage() {
         </li>
       </ul>
       <div>
-        <button>뒤로 가기</button>
+        <Link href="/start">
+          <button>뒤로 가기</button>
+        </Link>
       </div>
       <div>
-        <button>처음으로 </button>
+        <Link href="/">
+          <button>처음으로</button>
+        </Link>
       </div>
     </div>
   );
